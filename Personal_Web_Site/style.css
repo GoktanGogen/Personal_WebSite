@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to bottom, #c97c29, #5525a8, #0a0806);
+    height: 100vh; 
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #a0ff0d;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+p{
+    font-family: serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+    color: #a0ff0d;
+    
+}
+.navbar{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.navbar a{
+    color: #f8fc60;
+    text-decoration: none;
+    margin: 0 40px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+footer{
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: #f8fc60;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-line:solid ;
+
+}
+.social-icons a{
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons img{
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+.social-icons img:hover{
+    transform: scale(1.2);
+}
